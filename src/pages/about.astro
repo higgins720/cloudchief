@@ -1,0 +1,29 @@
+---
+import About from '../components/About.astro';
+import Nav from '../components/Nav.astro';
+
+let title = 'About Me';
+---
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>{title}</title>
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/style/global.css">
+    </head>
+    <body>
+    <main>
+        <header>
+        <Nav />
+        </header>
+        
+        <About />
+    </main>
+    </body>
+</html>
+
+
+
